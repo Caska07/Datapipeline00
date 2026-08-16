@@ -1,0 +1,11 @@
+{
+    "name": "DS_OLTP_WERKOPDRACHT",
+    "properties": {
+        "linkedServiceName": { "referenceName": "LS_AzureSqlOLTP", "type": "LinkedServiceReference" },
+        "type": "AzureSqlTable",
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "WERKOPDRACHT"
+        }
+    }
+}

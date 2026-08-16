@@ -1,0 +1,11 @@
+{
+    "name": "DS_Staging_WERKOPDRACHT",
+    "properties": {
+        "linkedServiceName": { "referenceName": "LS_AzureSqlDWH", "type": "LinkedServiceReference" },
+        "type": "AzureSqlTable",
+        "typeProperties": {
+            "schema": "stg",
+            "table": "WERKOPDRACHT"
+        }
+    }
+}

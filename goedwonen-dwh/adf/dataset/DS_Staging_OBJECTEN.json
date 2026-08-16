@@ -1,0 +1,11 @@
+{
+    "name": "DS_Staging_OBJECTEN",
+    "properties": {
+        "linkedServiceName": { "referenceName": "LS_AzureSqlDWH", "type": "LinkedServiceReference" },
+        "type": "AzureSqlTable",
+        "typeProperties": {
+            "schema": "stg",
+            "table": "OBJECTEN"
+        }
+    }
+}

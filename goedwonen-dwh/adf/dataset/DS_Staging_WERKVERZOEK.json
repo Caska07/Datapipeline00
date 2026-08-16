@@ -1,0 +1,11 @@
+{
+    "name": "DS_Staging_WERKVERZOEK",
+    "properties": {
+        "linkedServiceName": { "referenceName": "LS_AzureSqlDWH", "type": "LinkedServiceReference" },
+        "type": "AzureSqlTable",
+        "typeProperties": {
+            "schema": "stg",
+            "table": "WERKVERZOEK"
+        }
+    }
+}
